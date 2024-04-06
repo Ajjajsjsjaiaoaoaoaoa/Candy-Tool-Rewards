@@ -24,7 +24,7 @@ def generar_minecraft(cantidad):
                          ''.join(random.choices(string.ascii_uppercase + string.digits, k=5)) for _ in range(cantidad)]
     return codigos_minecraft
 
-def check_nitros(codigos):
+def check_nitros(codigos):100
     print("\nResultado del Checker Codigos Nitro:")
     for codigo in codigos:
         if random.random() < 0.0001:  # 0.01% de probabilidad de ser válido
